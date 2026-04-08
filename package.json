@@ -1,0 +1,23 @@
+{
+  "name": "poker-server",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "build": "ts-node ./build-scripts/build.ts"
+  },
+  "keywords": [],
+  "author": "Elliott Hill",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^5.0.6",
+    "@types/express-session": "^1.18.2",
+    "@types/fs-extra": "^11.0.1",
+    "esbuild": "^0.17.18",
+    "esbuild-plugin-copy": "^2.1.1",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "socket.io": "^4.8.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^6.0.2"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "esModuleInterop": true,
+    "declaration": true,
+    "module": "nodenext",
+    "resolveJsonModule": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "strict": true
+  },
+  "include": ["./src/**/*", "./typings/**/*"],
+  "exclude": ["./node_modules/**/*"]
+}
